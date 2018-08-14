@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML test case -->
+<DB>
+<DBStore>
+  <key>Executive</key>
+  <name>Executive</name>
+  <description>Package to demonstrate Execution of project</description>
+  <dtime></dtime>
+  <payload>
+	<filepath>
+	
+	</filepath>
+	<category>
+	</category>
+  </payload>
+  <children>
+       <childkey>Test</childkey>
+  </children>
+</DBStore>
+<DBStore>
+  <key>Test</key>
+  <name>Test</name>
+  <description>Package to run Test Cases</description>
+  <dtime></dtime>
+  <payload>
+	<filepath>
+	
+	</filepath>
+	<category>
+	</category>
+  </payload>
+  <children>
+       <childkey>DbCore</childkey>
+	   <childkey>Persistance</childkey>
+	   <childkey>Query</childkey>
+  </children>
+</DBStore>
+<DBStore>
+  <key>Persistance</key>
+  <name>Persistance </name>
+  <description> Package to demonstrate XML operations</description>
+  <dtime></dtime>
+  <payload>
+	<filepath>
+	
+	</filepath>
+	<category>
+	</category>
+  </payload>
+  <children>
+       <childkey>XmlParser</childkey>
+  </children>
+</DBStore>
+<DBStore>
+  <key>Query</key>
+  <name>Query</name>
+  <description>Package to Run Queries</description>
+  <dtime></dtime>
+  <payload>
+	<filepath>
+	
+	</filepath>
+	<category>
+	</category>
+  </payload>
+  <children>
+       <childkey>DbCore</childkey>
+  </children>
+</DBStore>
+<DBStore>
+  <key>DbCore</key>
+  <name>DbCore</name>
+  <description>Package for Database Structure</description>
+  <dtime></dtime>
+  <payload>
+	<filepath>
+	
+	</filepath>
+	<category>
+	</category>
+  </payload>
+  <children>
+       <childkey>DateTime</childkey>
+  </children>
+</DBStore>
+<DBStore>
+  <key>XmlParser</key>
+  <name>XmlParser</name>
+  <description>Package for Parsing Xml documents</description>
+  <dtime></dtime>
+  <payload>
+	<filepath>
+	
+	</filepath>
+	<category>
+	</category>
+  </payload>
+  <children>
+  </children>
+</DBStore>
+</DB>

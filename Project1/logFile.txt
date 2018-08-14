@@ -1,0 +1,276 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Wed Feb  7 14:33:54 2018
+     Path: "C:\Users\prasa\Desktop\OODProject1_PrasannaDodwad\OODProject1_PrasannaDodwad\Project1"
+     Args: *.h, *.cpp, NoSqlDb.sln, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     305
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           CodeUtilities.h   namespace                          Utilities      43      86      14
+           CodeUtilities.h       class                          Converter      52       5       3
+           CodeUtilities.h    function                           toString      61       5       1
+           CodeUtilities.h    function                            toValue      73       6       1
+           CodeUtilities.h       class                                Box      87       9       5
+           CodeUtilities.h    function                                Box      88       2       1
+           CodeUtilities.h    function                                Box      89       2       1
+           CodeUtilities.h    function                         operatorT&      90       2       1
+           CodeUtilities.h    function                          operator=      91       2       1
+           CodeUtilities.h      struct                              ToXml     102       4       2
+           CodeUtilities.h    function                             ~ToXml     103       1       1
+           CodeUtilities.h       class                     PersistFactory     115      14       3
+           CodeUtilities.h    function                     PersistFactory     119       3       1
+           CodeUtilities.h    function                              toXml     123       5       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         CodeUtilities.cpp    function                               main      20      36       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                DateTime.h       class                           DateTime      35      42      41
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              DateTime.cpp    function                              ctime      19       6       1
+              DateTime.cpp    function                          localtime      28       5       1
+              DateTime.cpp    function                           DateTime      36       3       1
+              DateTime.cpp    function                           DateTime      58      28      15
+              DateTime.cpp    function                      operatorstd::      89       3       1
+              DateTime.cpp    function                           DateTime      93       2       1
+              DateTime.cpp    function                           makeTime     101      16       2
+              DateTime.cpp    function                       makeDuration     122       8       1
+              DateTime.cpp    function                                now     133       7       1
+              DateTime.cpp    function                          timepoint     143       3       1
+              DateTime.cpp    function                              ticks     149       4       1
+              DateTime.cpp    function                               time     156       6       1
+              DateTime.cpp    function                          operator<     165       3       1
+              DateTime.cpp    function                          operator>     171       3       1
+              DateTime.cpp    function                         operator<=     175       4       1
+              DateTime.cpp    function                         operator+=     182       4       1
+              DateTime.cpp    function                          operator+     189       4       1
+              DateTime.cpp    function                         operator-=     196       4       1
+              DateTime.cpp    function                          operator-     203       3       1
+              DateTime.cpp    function                               year     209       5       1
+              DateTime.cpp    function                              month     217       5       1
+              DateTime.cpp    function                                day     225       5       1
+              DateTime.cpp    function                               hour     233       5       1
+              DateTime.cpp    function                             minute     241       5       1
+              DateTime.cpp    function                             second     249       5       1
+              DateTime.cpp    function                   readDateTimePart      44       9       1
+              DateTime.cpp    function                               main     262      28       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  DbCore.h   namespace                            NoSqlDb      42     276      58
+                  DbCore.h       class                          DbElement      54      40      21
+                  DbCore.h    function                               name      63       2       1
+                  DbCore.h    function                               name      64       2       1
+                  DbCore.h    function                               name      65       2       1
+                  DbCore.h    function                            descrip      67       2       1
+                  DbCore.h    function                            descrip      68       2       1
+                  DbCore.h    function                            descrip      69       2       1
+                  DbCore.h    function                           dateTime      71       2       1
+                  DbCore.h    function                           dateTime      72       2       1
+                  DbCore.h    function                           dateTime      73       2       1
+                  DbCore.h    function                           children      75       2       1
+                  DbCore.h    function                           children      76       2       1
+                  DbCore.h    function                           children      77       2       1
+                  DbCore.h    function                            payLoad      81       2       1
+                  DbCore.h    function                            payLoad      82       2       1
+                  DbCore.h    function                            payLoad      83       2       1
+                  DbCore.h    function                        DeleteChild     313       4       1
+                  DbCore.h       class                             DbCore     102      31      28
+                  DbCore.h    function                              begin     116       2       1
+                  DbCore.h    function                                end     117       2       1
+                  DbCore.h    function                            dbStore     121       2       1
+                  DbCore.h    function                            dbStore     122       2       1
+                  DbCore.h    function                            dbStore     123       2       1
+                  DbCore.h    function                           contains     141       4       1
+                  DbCore.h    function                               keys     149      11       2
+                  DbCore.h    function                               size     164       3       1
+                  DbCore.h    function                         operator[]     173       7       2
+                  DbCore.h    function                         operator[]     186       7       2
+                  DbCore.h    function                        RemoveChild     196      34       6
+                  DbCore.h    function                           showKeys     238       7       2
+                  DbCore.h    function                         showHeader     248      14       1
+                  DbCore.h    function                           showElem     266      23       3
+                  DbCore.h    function                             showDb     293      18       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                DbCore.cpp    function                                         21       3       1
+                DbCore.cpp    function                                         33       1       1
+                DbCore.cpp    function                                         50      37       1
+                DbCore.cpp    function                                         89      50       1
+                DbCore.cpp    function                                        141      47       3
+                DbCore.cpp    function                                        158       3       1
+                DbCore.cpp    function                                        190      30       1
+                DbCore.cpp    function                                        229      37       5
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             Executive.cpp       class                   DbProviderSecond      45       7       2
+             Executive.cpp    function                                 db      46       2       1
+             Executive.cpp    function                               main      56      27       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              PayloadStr.h       class                         PayloadStr      56      18       7
+              PayloadStr.h    function                            getpath      64       2       1
+              PayloadStr.h    function                            getpath      65       1       1
+              PayloadStr.h    function                            setpath      66       2       1
+              PayloadStr.h    function                        getcategory      68       1       1
+              PayloadStr.h    function                        getcategory      69       1       1
+              PayloadStr.h    function                        setcategory      70       1       1
+              PayloadStr.h    function                         operator<<      76      10       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             Persistance.h    function                  handlerforpayload     241      11       4
+             Persistance.h    function                          CreateXML      83      44       4
+             Persistance.h    function                         AugmentXML     172      29       4
+             Persistance.h       class                        Persistance      65      15       4
+             Persistance.h    function                            ReadXML     132      23       2
+             Persistance.h    function                      WriteDBtoFile     158      11       1
+             Persistance.h    function                  handlerForReadXML     204      34      10
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           Persistance.cpp    function                               main      34      23       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                   Query.h       class                        DbProvider3      86       7       2
+                   Query.h    function                                 db      87       2       1
+                   Query.h       class                          Condition     100      83      48
+                   Query.h    function                               name     113       5       1
+                   Query.h    function                                key     119       5       1
+                   Query.h    function                        description     125       5       1
+                   Query.h    function                         date_start     135       4       1
+                   Query.h    function                           date_end     142       4       1
+                   Query.h    function                            getName     150       4       1
+                   Query.h    function                             getKey     156       4       1
+                   Query.h    function                     getDescription     162       4       1
+                   Query.h    function                       getstartdate     168       4       1
+                   Query.h    function                         getenddate     174       4       1
+                   Query.h    function                         getpayLoad     179       2       1
+                   Query.h    function                           Datetime     269      46       9
+                   Query.h    function                           selectop     336      43       8
+                   Query.h    function                      selectpayload     386       5       1
+                   Query.h    function                      selectpayload     394      25       5
+                   Query.h    function                        handle_name     464      27       6
+                   Query.h    function                     handle_descrip     495      27       6
+                   Query.h    function                            payload     526       5       1
+                   Query.h       class                              Query     190      45      15
+                   Query.h    function                              Query     205       9       1
+                   Query.h    function                         queryunion     215       5       1
+                   Query.h    function                           queryand     222       4       1
+                   Query.h    function                      PrintChildren     245       9       2
+                   Query.h    function                        ValueofAKey     260       4       1
+                   Query.h    function                     PrintRegexpkey     319      12       3
+                   Query.h    function                               show     427       6       2
+                   Query.h    function                     ShowDbProvider     436       6       1
+                   Query.h    function                         ShowDbKeys     447      13       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Query.cpp    function                               main      22      32       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         StringUtilities.h   namespace                          Utilities      49     103      16
+         StringUtilities.h    function                              Title      56       4       1
+         StringUtilities.h    function                              title      63       4       1
+         StringUtilities.h    function                            putline      70       4       1
+         StringUtilities.h    function                               trim      80      31       6
+         StringUtilities.h    function                              split     116      20       4
+         StringUtilities.h    function                         showSplits     140      11       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+       StringUtilities.cpp    function                               main      20      22       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                    Test.h       class                               Test      50       6      12
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Test.cpp    function                        ExecuteTest     649      34      10
+                  Test.cpp    function                        SetDBinTest     687       6       1
+                  Test.cpp    function                                  ]      32       2       1
+                  Test.cpp       class                         DbProvider      42       7       2
+                  Test.cpp    function                                 db      43       2       1
+                  Test.cpp    function                             testR1      58      40       1
+                  Test.cpp    function                             testR2     102       7       1
+                  Test.cpp    function                            testR3a     113      41       1
+                  Test.cpp    function                            testR3b     157      49       1
+                  Test.cpp    function                             test4a     208      47       3
+                  Test.cpp    function                             test5a     256      42       2
+                  Test.cpp    function                        removechild     301      32       1
+                  Test.cpp    function                             Test6a     336      33       1
+                  Test.cpp    function                             Test6b     370      19       1
+                  Test.cpp    function                             Test6c     390      17       1
+                  Test.cpp    function                             Test6d     408      16       1
+                  Test.cpp    function                             Test6e     425      45       1
+                  Test.cpp    function                            Test6ea     471      23       1
+                  Test.cpp    function                             Test7a     495      35       1
+                  Test.cpp    function                             Test7b     531      22       1
+                  Test.cpp    function                    TestSavedbtoXML     554      39       1
+                  Test.cpp    function                        testAugment     594       9       1
+                  Test.cpp    function                        testPayload     604      17       1
+                  Test.cpp    function                             test11     622       8       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           TestUtilities.h       class                       TestExecutor      49       6       6
+           TestUtilities.h    function                            execute      59      16       3
+           TestUtilities.h    function                              check      79      10       2
+           TestUtilities.h       class                      TestExecutive      95      17       7
+           TestUtilities.h      struct                                  {     100       4       1
+              public data: Test test ; 
+              public data: std :: string testName ; 
+           TestUtilities.h    function                       registerTest     114       4       2
+           TestUtilities.h    function                       registerTest     120       3       1
+           TestUtilities.h    function                            doTests     125      11       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         TestUtilities.cpp    function                 test_always_passes      22       2       1
+         TestUtilities.cpp    function                  test_always_fails      23       2       1
+         TestUtilities.cpp    function                 test_always_throws      25       4       1
+         TestUtilities.cpp    function                               main      31      23       4
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          WindowsHelpers.h   namespace                     WindowsHelpers      42       5       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        WindowsHelpers.cpp    function                    wstringToString      26       7       1
+        WindowsHelpers.cpp    function                 stringToWideString      35       7       1
+        WindowsHelpers.cpp    function                         GetLastMsg      45      32       1
+        WindowsHelpers.cpp    function                               main      81       3       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              DateTime.cpp    function                           DateTime      58      28      15
+
+              public data: TestUtilities.h : 101 - struct {
+                Test test ; 
+              public data: TestUtilities.h : 102 - struct {
+                std :: string testName ; 
+
+
+    searched    49 dirs
+   processed    21 files

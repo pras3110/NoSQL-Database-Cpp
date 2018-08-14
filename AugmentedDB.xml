@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf - 8"?>
+
+  <DB>
+    <DBStore>
+      <key>
+        Anjanappa
+      </key>
+      <name>
+        Akash
+      </name>
+      <description>
+        TA for CSE687
+      </description>
+      <dtime>
+        Fri Jun 23 00:00:00 2017
+      </dtime>
+      <payload>
+        <filepath>
+          CST-401
+        </filepath>
+        <category>
+          <categorytype>
+            OOD
+          </categorytype>
+        </category>
+      </payload>
+      <children>
+      </children>
+    </DBStore>
+    <DBStore>
+      <key>
+        Fawcett
+      </key>
+      <name>
+        Jim
+      </name>
+      <description>
+        Instructor for CSE 687
+      </description>
+      <dtime>
+        Mon Aug 13 20:43:35 2018
+      </dtime>
+      <payload>
+        <filepath>
+          
+        </filepath>
+        <category>
+          <categorytype>
+            File 1
+          </categorytype>
+          <categorytype>
+            File 2
+          </categorytype>
+        </category>
+      </payload>
+      <children>
+        <childkey>
+          Salman
+        </childkey>
+        <childkey>
+          Dodwad
+        </childkey>
+        <childkey>
+          Gorle
+        </childkey>
+      </children>
+    </DBStore>
+    <DBStore>
+      <key>
+        Sun
+      </key>
+      <name>
+        Jianan
+      </name>
+      <description>
+        TA for CSE687
+      </description>
+      <dtime>
+        Fri Jun 23 00:00:00 2017
+      </dtime>
+      <payload>
+        <filepath>
+          CST-401
+        </filepath>
+        <category>
+          <categorytype>
+            OOD
+          </categorytype>
+        </category>
+      </payload>
+      <children>
+      </children>
+    </DBStore>
+    <DBStore>
+      <key>
+        Salman
+      </key>
+      <name>
+        Ammar
+      </name>
+      <description>
+        TA for CSE 687
+      </description>
+      <dtime>
+        Mon Aug 13 20:43:35 2018
+      </dtime>
+      <payload>
+        <filepath>
+          c://PRasdasa
+        </filepath>
+        <category>
+        </category>
+      </payload>
+      <children>
+        <childkey>
+          Dodwad
+        </childkey>
+        <childkey>
+          Gorle
+        </childkey>
+      </children>
+    </DBStore>
+    <DBStore>
+      <key>
+        Taneja
+      </key>
+      <name>
+        Parag
+      </name>
+      <description>
+        Student for CSE687
+      </description>
+      <dtime>
+        Sat Jun 23 00:00:00 2018
+      </dtime>
+      <payload>
+        <filepath>
+          
+        </filepath>
+        <category>
+        </category>
+      </payload>
+      <children>
+      </children>
+    </DBStore>
+    <DBStore>
+      <key>
+        Arora
+      </key>
+      <name>
+        Pranjul
+      </name>
+      <description>
+        TA for CSE687
+      </description>
+      <dtime>
+        Fri Jun 23 00:00:00 2017
+      </dtime>
+      <payload>
+        <filepath>
+          CST-401
+        </filepath>
+        <category>
+          <categorytype>
+            OOD
+          </categorytype>
+        </category>
+      </payload>
+      <children>
+      </children>
+    </DBStore>
+    <DBStore>
+      <key>
+        Prashar
+      </key>
+      <name>
+        Nikhil
+      </name>
+      <description>
+        TA for CSE687
+      </description>
+      <dtime>
+        Fri Jun 23 00:00:00 2017
+      </dtime>
+      <payload>
+        <filepath>
+          CST-401
+        </filepath>
+        <category>
+          <categorytype>
+            OOD
+          </categorytype>
+        </category>
+      </payload>
+      <children>
+      </children>
+    </DBStore>
+    <DBStore>
+      <key>
+        Dodwad
+      </key>
+      <name>
+        Anmol
+      </name>
+      <description>
+        Lives in Hubli
+      </description>
+      <dtime>
+        Mon Aug 13 20:43:34 2018
+      </dtime>
+      <payload>
+        <filepath>
+          
+        </filepath>
+        <category>
+        </category>
+      </payload>
+      <children>
+      </children>
+    </DBStore>
+  </DB>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML test case -->
+<DB>
+<DBStore>
+  <key>Fawcett</key>
+  <name>Jim</name>
+  <description>Instructor for CSE 687</description>
+  <dtime>443.34</dtime>
+  <payload>
+	<filepath>
+	
+	</filepath>
+	<category>
+		<categorychildren>File 1</categorychildren>
+		<categorychildren>File 2</categorychildren>
+		
+	</category>
+  </payload>
+  <children>
+       <childkey>Salman</childkey>
+	 <childkey>Dodwad</childkey>
+	 <childkey>Gorle</childkey>
+  </children>
+</DBStore>
+<DBStore>
+  <key>Salman</key>
+  <name>Ammar</name>
+  <description>TA for CSE 687</description>
+  <dtime>223.21</dtime>
+  <payload>
+	<filepath>c://PRasdasa</filepath>
+	<category>
+	
+	</category>
+  </payload>
+  <children>
+	 <childkey>Dodwad</childkey>
+	 <childkey>Gorle</childkey>
+  </children>
+</DBStore>
+</DB>
